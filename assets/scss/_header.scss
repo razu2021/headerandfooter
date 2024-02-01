@@ -1,0 +1,121 @@
+.fixed {
+    background: #fff;
+    height: 8rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    z-index: 1040;
+  }
+
+
+#footer_bg_image{
+    background-image: url(../img/footer_bg_image.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    .footerbg{
+        background: rgba(1, 26, 65, 0.85);
+        padding: 8rem 0rem;
+    }
+    .footer_top{
+        background: transparent;
+        border-bottom: 1px solid #e93c05;
+        padding-bottom: 2rem ;
+        h1{
+            font-size: 4.5rem;
+            color: #fff;
+            font-weight: 700;
+            ::after{
+                content: '';
+                height: .2rem;
+                width: 8rem;
+                background: #e93c05;
+                display: block
+            }
+            span{
+                color: #e93c05;
+            }
+        }
+        p{
+            color: #fff;
+            text-align: justify;
+        }
+    }
+    // 
+    .footer_content{
+        background: transparent;
+        justify-content: start;
+        padding: 2rem 0rem ;
+        .footer_logo{
+            img{
+                height: 10rem;
+                width: auto;
+            }
+        }
+        .address{
+            a{
+                color: #fff;
+                transition: 0.35s all;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+        .footer_menu_titme{
+            h4{
+                color: #e93c05;
+                text-transform: capitalize;
+                &::after{
+                    content: '';
+                    height: .2rem;
+                    width: 3rem;
+                    background: #e93c05;
+                    display: block
+                }
+            }
+        }
+
+        .footer_menu{
+            ul li{
+                display: block;
+                margin: 1rem;
+                transition: 0.35s all;
+                &:hover{
+                    padding-left: 1rem;
+                    a{
+                        color: #e93c05;
+                    }
+                    span{
+                        color: #fff;
+                    }
+                }
+                a{
+                    color: #fff;
+                    font-size: 1.7rem;
+                    text-transform: capitalize;
+                }
+                span{
+                    color: #e93c05;
+                    font-size: 1.3rem;
+                    padding-left: .5rem;
+                }
+            }
+        }
+    }
+}
+
+.copyright{
+    text-align: center;
+    padding: 1rem 0rem;
+    p{
+        color: #fff;
+    }
+}
+
+
+
+
+
+
